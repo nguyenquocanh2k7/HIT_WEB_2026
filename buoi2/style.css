@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card1 {
+  width: 1000px;
+  height: 1000px;
+  background-color: #51a3f3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 10px green solid;
+}
+.card2 {
+  width: 1000px;
+  height: 1000px;
+  width: 50%;
+  height: 50%;
+}
+h1 {
+  color: ##51a3f3;
+}
+p {
+  width: 1000px;
+  height: 1000px;
+  background-color: #51a3f3;
+  text-align: justify;
+}

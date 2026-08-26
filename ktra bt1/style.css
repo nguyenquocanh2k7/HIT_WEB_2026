@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header,
+footer {
+  background-color: #fff;
+  width: 1000px;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: bold;
+  color: #0044cc;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+}
+
+nav ul {
+  margin: 0 15px;
+  padding: 10px 0;
+}
+
+nav li {
+  color: #333;
+  cursor: pointer;
+}
+
+.sale {
+  background-color: #0044cc;
+  color: #fff;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.sale h1 {
+  margin-bottom: 10px;
+}
+
+.buynow {
+  background-color: #fff;
+  color: #0044cc;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.mainproduct {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 40px 40px;
+}
+
+.card1,
+.card2,
+.card3,
+.card4 {
+  background-color: #fff;
+  width: 220px;
+  padding: 15px;
+  text-align: center;
+}
